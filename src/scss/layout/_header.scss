@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(179, 216, 240);
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+
+.header {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    border-bottom: 10px solid rgb(250, 150, 114) ;
+}
+.imgDice {
+    width: 60px;
+}

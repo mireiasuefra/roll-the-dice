@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adalab Web Starter Kit</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+</head>
+
+<body>
+
+  <header class="header">
+    <img class="imgDice" src="./assets/images/Img_dados.png" alt="">
+    <h1>¿Jugamos?</h1>
+    <img class="imgDice" src="./assets/images/Img_dados.png" alt="">
+
+  </header>
+  <main>
+    
+    <div class="containerButton">
+      <label class="containerButton__sidesDice js-sidesDice" for="sidesDice">¿Cuántos lados tiene tu dado?</label>
+      <input class="containerButton__inputSideDice js-inputSideDice" type="text" name="sidesDice" id="sidesDice" placeholder="¿Cuántos?">
+      <button class="containerButton__button js-rollDice">Haz tu tirada!</button>
+      <p class="containerButton__result js-yourResultIs"></p>
+      <p class="containerButton__counter js-counterIs"></p>
+    </div>
+
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
